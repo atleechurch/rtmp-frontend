@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM "http://www.adobe.com/xml/dtds/cross-domain-policy.dtd">
+<cross-domain-policy>
+    <site-control permitted-cross-domain-policies="master-only"/>
+    <allow-access-from domain="*.atleechurch.org"/>
+    <allow-access-from domain="www.atleechurch.org"/>
+    <allow-access-from domain="nginx.atleechurch.org"/>
+    <allow-access-from domain="d2i3lq5blwyn9w.cloudfront.net"/>
+    <allow-access-from domain="localhost"/>
+    <allow-access-from domain="*.jwpcdn.com"/>
+</cross-domain-policy>
