@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Atlee Community Church Public Livestream Control</title>
+<title>Test Big Buck Bunny Video Player on Demand</title>
 <script src="http://jwpsrv.com/library/S_MxrF9OEeOwhyIACqoGtw.js"></script>
 
 <!-- Bootstrap CDN -->
@@ -31,7 +31,7 @@
 <div id='playerwNYJbziAsYux'></div>
 <script type='text/javascript'>
     jwplayer('playerwNYJbziAsYux').setup({
-        file: 'http://mediafusion-lh.akamaihd.net/i/Live_1@304186/master.m3u8',
+        file: 'http://nginx.atleechurch.org/hls/message.m3u8',
         image: 'http://atleechurch.org/wp-content/uploads/2013/12/default_poster.jpg',
         title: 'Atlee Community Church Test Feed',
         width: '100%',
@@ -49,10 +49,10 @@
 </script>
 <p>
 <button type="button" class="btn btn-default btn-lg">
-  <a href="control/record/stop?app=public&name=message&rec=service"> <span class="glyphicon glyphicon-stop" aria-hidden="true"></span> Stop Recording </a>
+  <a href="control/record/stop?app=src&name=message&rec=service"> <span class="glyphicon glyphicon-stop" aria-hidden="true"></span> Stop Recording </a>
 </button>
 <button type="button" class="btn btn-default btn-lg">
-  <a href="control/record/start?app=public&name=message&rec=service"> <span class="glyphicon glyphicon-play" aria-hidden="true"></span> Start Recording </a>
+  <a href="control/record/start?app=src&name=message&rec=service"> <span class="glyphicon glyphicon-play" aria-hidden="true"></span> Start Recording </a>
 </button>
 </p>
 
